@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout">
+
+        <RelativeLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/photo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:src="@android:drawable/ic_dialog_email"
+                android:layout_marginLeft="5dp"
+                android:background="#dac4f7"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/names" />
+
+            <TextView
+                android:id="@+id/vacancy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/phone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/email" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/schedule" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/specialisation" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/hospital" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Here"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/district" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Here"
+        android:id="@+id/biography"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout"
+        android:textColor="#080808" />
+<android.support.v4.widget.Space
+    android:layout_width="wrap_content"
+    android:layout_height="5dp"
+    android:layout_below="@id/biography"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:id="@+id/textView14"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#131bf5" />
+
+
+</RelativeLayout>
